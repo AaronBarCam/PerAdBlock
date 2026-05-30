@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 250px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 15px;
+            background-color: #f4f7f6;
+        }
+        .header {
+            color: #2e7d32;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .counter-box {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        #count {
+            font-size: 48px;
+            color: #4caf50;
+            display: block;
+            font-weight: bold;
+        }
+        .label {
+            color: #666;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        .footer {
+            margin-top: 15px;
+            font-size: 10px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">PerAdBlock 🍐🛡️</div>
+    <div class="counter-box">
+        <span id="count">0</span>
+        <div class="label">Amenazas bloqueadas por IA</div>
+    </div>
+    <div class="footer">Protección inteligente activa</div>
+    <button id="reset">Resetear contador</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
